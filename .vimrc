@@ -34,6 +34,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-markdown'
 Plug 'suan/vim-instant-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
+" C++ format
+Plug 'rhysd/vim-clang-format'
 call plug#end()
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
